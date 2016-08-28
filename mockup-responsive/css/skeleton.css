@@ -1,5 +1,5 @@
 /*
-* Skeleton V2.0.4
+* Mi sono basato su Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
 * Free to use under the MIT license.
@@ -51,7 +51,7 @@
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+     }
   .column,
   .columns {
     margin-left: 4%; }
@@ -394,25 +394,96 @@ hr {
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+    .title {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .mybox {
+        margin-bottom: 20px;
+    }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+        .title {
+            text-align: center;
+        }
+        
+        nav {
+            margin-left: 10%;
+        }
+    
+        nav a {
+            float: left;
+            width: 27%;
+            margin: 0 1.7%;
+            padding: 25px 2%;
+            margin-bottom: 0;
+        }
 
-/* Larger than tablet */
-@media (min-width: 750px) {}
+        nav li:first-child a {
+            margin-left: 0;
+        }
+
+        nav li:last-child a {
+            margin-right: 0;
+        }
+
+    /* ========================
+        INTERMEDIATE: IE Fixes
+       ======================== */
+
+        nav ul li {
+            display: inline;
+            margin: 0;
+        }
+
+        .oldie nav a {
+            margin: 0 0.7%;
+        }
+        
+}
+
+/* Larger than tablet 750*/
+@media (min-width: 800px) {
+    /* ====================
+        WIDE: CSS3 Effects
+       ==================== */
+
+        .header-container {
+            -webkit-box-shadow: 0 5px 10px #aaa;
+               -moz-box-shadow: 0 5px 10px #aaa;
+                    box-shadow: 0 5px 10px #aaa;
+        }
+
+
+
+    /* ============
+        WIDE: Menu
+       ============ */
+
+        .title {
+            float: left;
+            margin-left: 10%;
+        }
+
+        nav {
+            float: right;
+            width: 38%;
+        }
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+    
+    .wrapper {
+        width: 900px; /* TOTAL - 10% for margins */
+        margin: 0 auto;
+    }
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+/*@media (min-width: 1200px) {} */
