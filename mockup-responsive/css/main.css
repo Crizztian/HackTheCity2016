@@ -1,5 +1,7 @@
 /*! L'ho basato su HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-/* #e44d26  #fa8334 #FBFEF9*/
+
+
+/* #ff9900, #ffcc00, #fff shadow drop, #fa8334, #fbfef9, #e44d26 */
 
 
 html {
@@ -60,6 +62,7 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    background: #ffcc00;
 }
 
 
@@ -70,6 +73,15 @@ body {
 
 .header-container {
     border-bottom: 10px solid #fa8334;
+    -webkit-box-shadow: 0 5px 10px #fff;
+       -moz-box-shadow: 0 5px 10px #fff;
+            box-shadow: 0 5px 10px #fff;
+}
+
+.footer-container {
+    -webkit-box-shadow: 0 -5px 10px #fff;
+       -moz-box-shadow: 0 -5px 10px #fff;
+            box-shadow: 0 -5px 10px #fff;
 }
 
 .footer-container,
@@ -80,7 +92,7 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #ff9900;
 }
 
 .title {
@@ -107,7 +119,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #ffcc00;
 }
 
 nav a:hover,
@@ -130,12 +142,14 @@ nav a:hover {
 
 .mybox {
     min-width: 325px;
+    min-height: 218px;
     color: white;
-    padding: 10px 5% 10px;
-    background: #fa8334;
-    -webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    padding: 20px 5% 10px;
+    background: #ff9900;
+    -webkit-box-shadow: 10px 10navpx 24px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 10px 10px 24px 0px rgba(255,255,255,0.75);
+    box-shadow: 10px 10px 24px 0px rgba(255,255,255,0.75);
+    margin-top: 15px;
 }
 
 .mybox h3 {

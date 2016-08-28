@@ -45,12 +45,18 @@
 @media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; }
+    padding: 0; 
+    }
+
+  .header-container {
+      padding-bottom: 10px;
+  }
 }
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
-  .container {
+/* For devices larger than old 550px now changed */
+@media (min-width: 800px) {
+  .header-container {
+      padding-bottom: 0;
      }
   .column,
   .columns {
@@ -449,18 +455,6 @@ hr {
 
 /* Larger than tablet 750*/
 @media (min-width: 800px) {
-    /* ====================
-        WIDE: CSS3 Effects
-       ==================== */
-
-        .header-container {
-            -webkit-box-shadow: 0 5px 10px #aaa;
-               -moz-box-shadow: 0 5px 10px #aaa;
-                    box-shadow: 0 5px 10px #aaa;
-        }
-
-
-
     /* ============
         WIDE: Menu
        ============ */
