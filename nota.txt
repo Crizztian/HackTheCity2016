@@ -1,1 +1,0 @@
-Il theme responsive da aprire è index.html nella cartella mockup-responsive
