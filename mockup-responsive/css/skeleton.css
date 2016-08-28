@@ -468,6 +468,10 @@ hr {
             float: right;
             width: 38%;
         }
+        
+        h3 {
+            letter-spacing: -.24rem;
+        }
 }
 
 /* Larger than desktop */
@@ -476,6 +480,10 @@ hr {
     .wrapper {
         width: 900px; /* TOTAL - 10% for margins */
         margin: 0 auto;
+    }
+    
+    h3 {
+        letter-spacing: -.1rem;
     }
 }
 
